@@ -2,9 +2,11 @@
   "name": "wadouk",
   "version": "1.0.0",
   "description": "",
-  "main": "node-timing.js",
+  "main": "index.js",
+  "engines" : {
+    "node" : "4.5", "npm" : "2.15"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [],
